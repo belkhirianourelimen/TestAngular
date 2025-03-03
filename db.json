@@ -1,0 +1,28 @@
+{
+    "DB": [
+        {
+            "id": 1,
+            "nbjoueur": 12,
+            "desc": "gezgfezg",
+            "status": true
+        },
+        {
+            "id": 1,
+            "nbjoueur": 12,
+            "desc": "gezgfezg",
+            "status": true
+        },
+        {
+            "id": 1,
+            "nbjoueur": 12,
+            "desc": "gezgfezg",
+            "status": true
+        },
+        {
+            "id": 1,
+            "nbjoueur": 12,
+            "desc": "gezgfezg",
+            "status": true
+        }
+    ]
+}

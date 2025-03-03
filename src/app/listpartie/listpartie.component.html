@@ -1,0 +1,22 @@
+<div class="parties">
+    <div *ngFor="let parties of listPartie; let i = index">
+      <div class="card" style="width: 18rem">
+        <div class="card-body">
+          <h5 class="card-title">{{ parties.id }}</h5>
+          <p class="card-text">
+            {{ parties.nbjoueur }}
+          </p>
+          <p class="card-text">
+            {{ parties.desc }}
+          </p>
+          <p class="card-text">
+            {{ parties.status }}
+          </p>
+          <a [routerLink]="['/details', parties.id]" class="btn btn-primary"
+            >Details</a
+          >
+          <a  class="btn btn-danger">Delete</a>
+        </div>
+      </div>
+    </div>
+  </div>
