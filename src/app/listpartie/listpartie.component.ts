@@ -17,6 +17,15 @@ export class ListpartieComponent {
     });
   }
 
+  deletePartie(id:any){
+    this.servicepartie.deletePartie(id).subscribe(()=>{
+      console.log('deleted')
+      //window.location.reload()
+      this.ngOnInit()
+    })
+  
+  }
+
 
 
 }

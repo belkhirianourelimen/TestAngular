@@ -15,7 +15,7 @@
           <a [routerLink]="['/details', parties.id]" class="btn btn-primary"
             >Details</a
           >
-          <a  class="btn btn-danger">Delete</a>
+          <button class="btn btn-danger" (click)="deletePartie(parties.id)">Delete</button>
         </div>
       </div>
     </div>
